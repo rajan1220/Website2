@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<head>
+    <title>Hotel Booking</title>
+</head>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #08120a;
+    color: rgb(255,215,150);
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    height: 100px;
+    align-content: baseline;
+    /* justify-content: space-between; */
+    gap: 2em;
+}
+nav {
+    background-color: #b42727;
+    /* color: #fff; */
+    /* text-align:; */
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+form label, form input, form button {
+    display: block;
+    margin: 10px;
+}
+
+.room {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    font: 3em;
+    /* width: 20%; */
+    display: inline-block;
+    justify-content: space-evenly;
+}
+
+.book-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.div1{
+    display:inline-block;
+    width: 0%;
+}
+.div2{
+    display:inline-block;
+    width: 30%;
+}
+#booking{
+    background: scroll;
+    background-color:rgb(158, 234, 234);
+    /* font-size: 2em; */
+    padding: 100;
+}
+#rooms{
+    justify-content: space-between;
+    padding-left: 100px;
+}
+footer{
+    padding: 10%;
+}
+.footer1{
+    display: flex;
+}
+.hotel-name{
+    align-self: center;
+    font-size: larger;
+    /* flex-grow: 1; */
+}
+.logo{
+            align-content: left;
+            display: inline-block;
+            padding-left: 20%;
+            /* position: absolute;
+            top: 0px;
+            left:40px; */
+        }
+</style>
+<body>
+    
+    <header>
+        <div class="logo">
+            <img src="/Emblem-removebg-preview-removebg-preview.png" height="100em" width="80em">
+            </div>
+            <div class="hotel-name">
+        <h1>HOTEL EMBLEM</h1></div>
+         
+    </header>
+   <nav>
+        <ul>
+            <li><a href="Hotel.html">Home</a></li>
+            <li><a href="#">Rooms</a></li>
+            <li><a href="/Aboutus.html">About</a></li>
+            <li><a href="/customer support.html">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="rooms">
+        <h2>Available Rooms</h2>
+        <div class="room">
+            <img src="Room-Type-Single-Room.webp" alt="Room 2" height="300em" width="300em">
+            <h3>SINGLE AC ROOM</h3>
+            <p>₹ 4,080 + tax  per night</p>
+            <CENTER><button class="book-btn">Book Now</button></CENTER>
+        </div>
+       
+        <div class="room">
+            <img src="Double Ac.jpeg" alt="Room 2" height="300em" width="300em">
+            <h3>DOUBLE AC ROOM</h3>
+            <p>₹ 7,495 + tax  per night</p>
+            <CENTER><button class="book-btn">Book Now</button></CENTER>
+        </div>
+        <div class="room">
+            <img src="delux double room.jpg" alt="Room 2" height="300em" width="300em">
+            <h3>DILUXE AC ROOM</h3>
+            <p>₹ 9,173 + tax  per night</p>
+            <CENTER><button class="book-btn">Book Now</button></CENTER>
+        </div> 
+        <div class="room">
+            <img src="triple ac.jpeg" alt="Room 2" height="300em" width="300em">
+            <h3>TRIPLE AC ROOM</h3>
+            <p>₹ 12,265 + tax  per night</p>
+            <CENTER><button class="book-btn">Book Now</button></CENTER>
+        </div>
+        <div class="room">
+            <img src="Room-Type-quad-Room.webp" alt="Room 2" height="300em" width="300em">
+            <h3>QUAD ROOM</h3>
+            <p>₹ 17,264 + tax  per night</p>
+            <CENTER><button class="book-btn">Book Now</button></CENTER>
+        </div>
+        <div class="room">
+            <img src="-Queen-Room.webp" alt="Room 2" height="300em" width="300em">
+            <h3>QUEEN ROOM</h3>
+            <p>₹ 19,594 + tax  per night</p>
+            <CENTER><button class="book-btn">Book Now</button></CENTER>
+        </div>
+        <div class="room">
+            <img src="King-Room.webp" alt="Room 2" height="300em" width="300em">
+            <h3>KING ROOM</h3>
+            <p>₹ 22,222 + tax  per night</p>
+            <CENTER><button class="book-btn">Book Now</button></CENTER>
+        </div>
+        <div class="room">
+            <img src="studio-Room.webp" alt="Room 2" height="300em" width="300em">
+            <h3>STUDIO ROOM</h3>
+            <p>₹ 27,452 + tax  per night</p>
+            <CENTER><button class="book-btn">Book Now</button></CENTER>
+        </div>
+        <div class="room">
+            <img src="Executive-Floor-rooms.webp" alt="Room 2" height="300em" width="300em">
+            <h3>EXECUTIVE SUITE ROOM</h3>
+            <p>₹ 29,421 + tax  per night</p>
+            <CENTER><button class="book-btn">Book Now</button></CENTER>
+        </div>  
+        <!-- <div class="room">
+            <img src="-serviced-apartment.webp" alt="Room 2" height="300em" width="300em">
+            <h3>APARTMENTS</h3>
+            <p>₹ 1,00,000  per night</p>
+            <CENTER><button class="book-btn">Book Now</button></CENTER>
+        </div> -->
+        <div class="room">
+            <img src="connecting-rooms.webp" alt="Room 2" height="300em" width="300em">
+            <h3>CONNECTING ROOM</h3>
+            <p>₹ 38,531 + tax  per night</p>
+            <CENTER><button class="book-btn">Book Now</button></CENTER>
+        </div>
+        <!-- <div class="room">
+            <img src="murphy-bed-rooms.webp" alt="Room 2" height="300em" width="300em">
+            <h3>MURPHY ROOM</h3>
+            <p>₹ 1,37,000  per night</p>
+            <CENTER><button class="book-btn">Book Now</button></CENTER>
+        </div> -->
+        <div class="room">
+            <img src="Cabana-Room.webp" alt="Room 2" height="300em" width="300em">
+            <h3>CABANA</h3>
+            <p>₹ 63,795 + tax  per night</p>
+            <CENTER><button class="book-btn">Book Now</button></CENTER>
+        </div>
+        <div class="room">
+            <img src="Adjoining-rooms.webp" alt="Room 2" height="300em" width="300em">
+            <h3>ADJOINING ROOM</h3>
+            <p>₹ 68,423 + tax  per night</p>
+            <CENTER><button class="book-btn">Book Now</button></CENTER>
+        </div>
+        <div class="room">
+            <img src="smoking_room.webp" alt="Room 2" height="300em" width="300em">
+            <h3>SMOKING ROOM</h3>
+            <p>₹ 70,872 + tax per night</p>
+            <CENTER><button class="book-btn">Book Now</button></CENTER>
+        </div>
+        <div class="room">
+            <img src="Executive-Floor-rooms.webp" alt="Room 2" height="300em" width="300em">
+            <h3>EXECUTIVE FLOORED ROOM</h3>
+            <p>₹ 75,837 + tax  per night</p>
+            <CENTER><button class="book-btn">Book Now</button></CENTER>
+        </div>
+        <div class="room">
+            <img src="presidential-suite-bedroom.webp" alt="Room 2" height="300em" width="300em">
+            <h3>PRESIDENT SUITE ROOM</h3>
+            <p>₹ 1,57,574 + tax  per night</p>
+            <CENTER><button class="book-btn">Book Now</button></CENTER>
+        </div>
+    </section>
+    <section class="footer1"> 
+        <div class="div2"> <h1>OUR PRODUCT</h1>
+         <a style="text-decoration: none;" href="Room.html">Domestic Hotel</a>
+        </div>
+         <div class="div2"> <h1>COMPANY</h1>
+             <ul><a style="text-decoration: none;" href="/Hotel.html">Home</li><br>
+             <a style="text-decoration: none;" href="Aboutus.html">About us</a><br>
+             <a style="text-decoration: none;"href="Term and condition.html">Term & Conditions</a><br>
+             <a style="text-decoration: none;" href="useragreenment.html">User Agreement</a><br>
+             <a style="text-decoration: none;"href="customer support.html">Customer Support</a></ul>
+            </div>
+             <div class="div2"> <h1>JOIN US</h1>
+                <a href="https://www.instagram.com/" class="p1"><img src="Instagram_logo_2016.svg.webp" width="30px" height="30px"></a>
+                <a href="https://www.facebook.com/"><img src="Facebook.png" width="30px" height="30px"></a>
+                <a href="https://www.linkedin.com/"><img src="linkedin.png" width="30px" height="30px"></a>
+                <a href="https://twitter.com/"><img src="twitter.png" width="30px" height="30px"></a>
+            </div>
+     </section>
+    <section class="footer"> &copy; HOTEL EMBLEM 2023
+</section>
+</body>
+</html>
